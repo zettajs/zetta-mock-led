@@ -1,0 +1,28 @@
+{
+  "name": "zetta-mock-led",
+  "version": "0.0.0",
+  "description": "Mock LED Device for use in Zetta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zettajs/zetta-mock-led.git"
+  },
+  "keywords": [
+    "zetta",
+    "mock",
+    "led"
+  ],
+  "author": "Matthew Dobson <@mdobs>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zettajs/zetta-mock-led/issues"
+  },
+  "homepage": "https://github.com/zettajs/zetta-mock-led",
+  "dependencies": {
+    "zetta": "^0.8.0",
+    "zetta-auto-scout": "^0.2.0"
+  }
+}
