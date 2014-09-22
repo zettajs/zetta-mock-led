@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/zettajs/zetta-mock-led",
   "dependencies": {
-    "zetta": "^0.8.0",
-    "zetta-auto-scout": "^0.2.0"
+    "zetta": "^0.10.0"
   }
 }
