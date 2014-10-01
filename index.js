@@ -1,5 +1,5 @@
 var util = require('util');
-var Device = require('zetta').Device;
+var Device = require('zetta-device');
 
 var LED = module.exports = function() {
   Device.call(this);
