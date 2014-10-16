@@ -1,6 +1,6 @@
 {
   "name": "zetta-mock-led",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Mock LED Device for use in Zetta",
   "main": "index.js",
   "scripts": {
