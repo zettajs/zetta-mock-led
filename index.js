@@ -1,7 +1,8 @@
 var util = require('util');
 var Device = require('zetta-device');
 
-var LED = module.exports = function() {
+var LED = module.exports = function(led) {
+  this.led = led;
   Device.call(this);
 };
 util.inherits(LED, Device);
@@ -10,6 +11,7 @@ LED.prototype.init = function(config) {
   config
     .type('led')
     .state('off')
+    .name(this.led)
     .when('off', { allow: ['turn-on'] })
     .when('on', { allow: ['turn-off'] })
     .map('turn-on', this.turnOn)
