@@ -1,6 +1,6 @@
 {
   "name": "zetta-led-mock-driver",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Mock LED Device for use in Zetta",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/zettajs/zetta-led-mock-driver",
   "dependencies": {
-    "zetta-device": "^0.15.0"
+    "zetta-device": "^0.19.0"
   }
 }
